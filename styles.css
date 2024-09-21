@@ -1,0 +1,123 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a23;
+    color: #ffffff;
+}
+
+/* Logo and navigation container */
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1c1c3a;
+}
+
+/* Logo and Company Name */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 30px; /* Smaller logo */
+    height: auto;
+    margin-right: 10px; /* Space between logo and company name */
+}
+
+.company-name {
+    color: #FFD700; /* UNCG Gold */
+    font-size: 20px;
+    margin: 0;
+    text-decoration: none; /* Removes underline from company name */
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #000000;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+/* Styling headers with UNCG gold and underline, excluding company name */
+h1, h2 {
+    color: #FFD700; /* UNCG gold */
+    text-decoration: underline; /* Underline headers */
+}
+
+.company-name {
+    text-decoration: none; /* Excludes company name from having an underline */
+}
+
+/* Button styling */
+.btn {
+    background-color: #FFD700; /* UNCG gold */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #E6BE00; /* Slightly darker gold on hover */
+}
+
+/* Intro Section */
+#intro {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #151540;
+}
+
+#intro img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin: 20px 0;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #1c1c3a;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    color: #cccccc;
+    font-size: 14px;
+}
